@@ -37,7 +37,7 @@ public class HomeDepotTest extends Base {
 	  boolean lk = dt.linkds();
 	  softAssert.assertEquals(lk, true);
 	 // boolean click = dt.createButtonClickable();
-	 // softAssert.assertEquals(click, false);
+	 // softAssert.assertEquals(click, false); ui
 	  Thread.sleep(3000);
 	  homepage.Clicktocontinue();
 	  Date di = new Date();
