@@ -29,6 +29,7 @@ public class HomeDepotTest extends Base {
 	  Thread.sleep(3000);
 	  homepage.registerButton();
 	  
+	  // testing github homedepot
 	  CreateDepotAccount dt = new CreateDepotAccount(driver);
 	  String createAccountText = dt.createAnAccountVerification();
 	  SoftAssert softAssert = new SoftAssert();
